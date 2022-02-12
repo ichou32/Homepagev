@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-wrap: break-word;
+}
+html{
+height:100%;
+width: 100%;
+overflow-x: hidden;
+}
+body{
+top:0; bottom:0; right:0; left:0;
+    height: 100%;
+    width: 100%;
+}
+nav{
+width: 100%;
+height: 4em;
+background-color: #21325a;
+}
+
+.kk{
+    float: right;
+    justify-content: flex-end;
+    margin: 3em;
+}
+.nav-item{
+    margin: 1em;
+}
+.nav-item a{
+    text-align: center;
+    font: normal normal bold 16px/40px Visby CF;
+    letter-spacing: 0.64px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 4em;
+    background-color: #21325a;
+}
+.main .title{
+    width: 400px;
+    height: 280px;
+    text-align: left;
+    font: normal normal bold 60px/80px Visby CF;
+    letter-spacing: 2.8px;
+    color: #F5F8FF;
+    text-transform: capitalize;
+}
+.hights{
+    flex-direction: column;
+}
+.main .text{
+    width: 453px;
+    height: 67px;
+    text-align: left;
+    font: normal normal medium 18px/28px Visby CF;
+    letter-spacing: 0.72px;
+    color: #EFEEF1;
+    opacity: 1;
+}
+.main .btn{
+    width: 183px;
+    height: 60px;
+    background: #E16D62 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    }
+
+   .cards .card{
+        position: relative;
+        z-index: 999;
+        top: -20vh;
+        width: 22.5em;
+        height: 25em;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 20px 40px #00000019;
+        border-radius: 10px;
+        }
+    .cards .card-text{
+        width: 20em;
+        height: 180px;
+        text-align: left;
+        font: normal normal medium 20px/31px Visby CF;
+        letter-spacing: 0.8px;
+        color: #26282E;
+        }
+    .cards .card-title{
+        width: 10em;
+        height: 4em;
+        text-align: left;
+        letter-spacing: NaNpx;
+        color: #21325A;
+        }
+    .cards .card-subtitle{
+        width: 2em;
+        height: 1.5em;
+        text-align: left;
+        font: normal normal bold 40px/60px Poppins;
+        letter-spacing: 1.6px;
+        color: #E0E2E6;
+        }
+        
+.card{
+    height: 63vh;
+    width: 100%;
+    margin-top: 10em;
+    border: 0px;
+}
+.card img{
+    height: 63.5vh;
+    width: 27em;
+}
+.history{
+    margin: auto;
+}
+.history .card-title{
+    text-align: left;
+    font: normal normal bold 1.15em Visby CF;
+    color: #1C99D5;
+    text-transform: capitalize;
+}
+.history .card-subtitle{
+    text-align: left;
+    font: normal normal bold 2em Visby CF;
+    color: #21325A;
+    text-transform: capitalize;
+}
+.history .card-text{
+    text-align: left;
+    font: normal normal medium 1.8em Visby CF;
+    color: #26282E;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #21325A;
+    font-size: 45px;
+    margin: 30px 200px;
+}
+.card-group .card{
+    background: #FCFDFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #00000019;
+    border-radius: 10px;
+}
+.card-group img{
+    height: 15em;
+    width: auto; 
+    padding: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+.card-group .card-title{
+    text-align: center;
+    font: normal normal bold 18px/42px Visby CF;
+    letter-spacing: 0.72px;
+    color: #21325A;
+}
+.card-group .card-body{
+    text-align: center;
+}
+
+.expert{
+    background: #F5F8FF 0% 0% no-repeat padding-box;
+    margin:auto;
+    height: 100vh;
+}
+ .expert .card{
+    height: 70vh;
+    width: auto;
+    overflow: hidden;
+    border-radius: 10px;
+ }
+ .expert img{
+     width: 100%;
+     height: auto;
+     border-radius: 10px;
+ }
+ .values{
+     margin-top: 10vh;
+ }
+ .values .card{
+    height: 45vh;
+    background: #FCFDFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 40px #00000019;
+    border-radius: 10px;
+    align-items: center;
+ }
+ .values .card-body{
+    flex-direction: column;
+    align-items: end;
+ }
+.values .card-title{
+    text-align: left;
+    font: normal normal bold 2.5em Visby CF;
+    letter-spacing: 2px;
+    color: #21325A;
+    text-transform: capitalize;
+}
+.values .card-text{
+    text-align: left;
+    font: normal normal medium 19px/30px Visby CF;
+    letter-spacing: 0.76px;
+    color: #26282E;
+}
+.values .card-img-top{
+    width: 3.3em;
+    height: auto;
+}
+.line{
+    width: 90%;
+    height: 0.5em;
+    background: #1C99D5 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    justify-content: center;
+}
+.article img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.article .card{
+    background: #FCFDFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 60px #AAA7A71D;
+    border-radius: 10px;
+}
+.article .card-title{
+    letter-spacing: 0px;
+    color: #26282E;
+    font: normal normal bold 1.15 Visby CF;
+}
+.article a{
+    float: right;
+}
+.end{
+    height: 50vh;
+}
+.end button{
+    background: #E16D62 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+}
+.end .line{
+    width: 3.3em;
+    height: 1px;
+    background: #1C99D5 0% 0% no-repeat padding-box;
+}
+
+.tend button, div{
+    margin: auto;
+}
+.tend h1{
+    font: normal normal bold 50px/69px Visby CF;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.social-icons a {
+    color: #21325A;
+    font-size: 1.9em;
+    transition: 0.7s ease;
+}
+hr{
+    width: 80%;
+    height: 2px;
+    margin: auto;
+}
+footer h5{
+    text-align: left;
+    font: normal normal bold Visby CF;
+    letter-spacing: 1px;
+    color: #21325A;
+}
+footer li,a{
+    font: normal normal medium 14px/22px Visby CF;
+letter-spacing: 0.56px;
+color: #26282E;
+}
