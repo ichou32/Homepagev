@@ -36,7 +36,7 @@ width: 100%;
 
 .main{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     padding-top: 5em;
     background-color: #21325a;
 }
