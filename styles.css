@@ -51,6 +51,7 @@ width: 100%;
 }
 .hights{
     flex-direction: column;
+    z-index: 1;
 }
 .main .text{
     width: 453px;
@@ -263,7 +264,7 @@ width: 100%;
     margin: auto;
 }
 .tend h1{
-    font: normal normal bold 50px/69px Visby CF;
+    font: normal normal bold 2.5em Visby CF;
     letter-spacing: 2px;
     text-transform: capitalize;
 }
