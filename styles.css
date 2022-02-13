@@ -36,8 +36,8 @@ width: 100%;
 
 .main{
     width: 100%;
-    min-height: 100vh;
-    padding-top: 4em;
+    height: 100vh;
+    padding-top: 5em;
     background-color: #21325a;
 }
 .main .title{
@@ -156,9 +156,8 @@ width: 100%;
     border-radius: 10px;
 }
 .card-group img{
-    height: 15em;
+    max-height: 15em;
     width: auto; 
-    padding: auto;
     border-radius: 10px 10px 10px 10px;
 }
 .card-group .card-title{
@@ -290,8 +289,8 @@ footer li,a{
     margin: 1em 0em 1em 0em;
 color: #26282E;
 }
-@media (min-width: 641){
+@media (min-width: 991){
     body{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
