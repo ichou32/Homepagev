@@ -120,7 +120,7 @@ width: 100%;
 }
 .history{
     margin: auto;
-    height: 90vh;
+    min-height: 100vh;
 }
 .history img{
     width: 100%;
