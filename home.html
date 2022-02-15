@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta lang="fr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anasd;47kl=[onymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="carousel.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Intelvalia</title>
 
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
-            <a class="navbar-brand ml-4" href="#"><img id="img" src="assets/logow.png"  alt="Intelvalia company logo"></a>
+            <a class="navbar-brand ml-4 pl-4" href="#"><img id="img" src="assets/logow.png"  alt="Intelvalia company logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
               <i class="fas fa-bars color"></i>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse justify-content-end mr-4 pr-4" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item mr-0 ml-0"><a class="nav-link nl" href="#">Nos Expertise</a></li>
                     <li class="nav-item mr-0 ml-0"><a class="nav-link" href="#">Nos Realisation</a></li>
@@ -33,64 +35,64 @@
             </div
         </nav>
     </header>
-
-        <section class="main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 pl-5 mt-0 pt-0 hights">
-                        <div class="title align-items-center ml-2 pl-0 mb-0 mt-0">
-                            Reaching New Hights Together
-                        </div>
-                        <div class="text">
-                            <p>Ensemble, grimpons sur l’échelle de la digitalisation et de la croissance. Alors qu’attendez-vous ?</p>
-                            <button class="btn btn-primary btn-lg btn-success">
-                                LOREM IPSUM
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12 pl-0 rocket" >
-                        <img src="assets/Group 15552.png" alt="" style="width: 45em;">
-                    </div>
-                </div>
-            </div>
-        </section>
+    <main class="main row">
+          <div class="col col-md-6 mt-2">
+             <div class="mbd d-flex align-items-start mr-0">
+                <h1 class="title align-items-center m-4 p-2">Reaching <br> New Hights <br> Together</h1>            
+                <p class="text ml-4 mt-0 mb-0 pt-0 mt-0">Ensemble, grimpons sur l’échelle de la digitalisation <br> et de la croissance. Alors qu’attendez-vous ?</p>
+                <button class="btn btn-success m-4 p-2 mt-0 mb-0">
+                  LOREM IPSUM
+                </button>
+             </div>
+          </div>
+          <div class="col col-md-6 m-0 p-0" >
+              <img src="assets/Group15552.png" class="mx-auto" alt="" style="width: 100%; height: 100%;">
+          </div>
+        </main>
         
-        <section class="cards row d-flex justify-content-center">
-          <div class="card col-sm-12 col-md-3 m-2 p-2 mb-0 pb-0">
+        <section class="cards">
+          <div class=" row d-flex justify-content-center">
+            <div class="card col-sm-12 col-md-3 m-2 p-2 mb-0 pb-0">
               <div class="card-body">
                   <h1 class="card-subtitle pt-0">01</h1>
-                  <h2 class="card-title">ACCOMPAGNEMENT & CONCEPTION</h2>
+                  <h2 class="card-title">ACCOMPAGNEMENT <br> & CONCEPTION <br>
+                    <span class="line"></span>
+                  </h2>
+                  
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+                  
+                </div>
           </div>
           <div class="card col-sm-12 col-md-3 m-2 p-2 ">
               <div class="card-body">
                   <h1 class="card-subtitle pt-0">02</h1>
-                  <h2 class="card-title">EXÉCUTION & AGILITÉ</h2>
-                  <p class="card-text">’est la phase la plus attendue ; à ce stade, grâce aux méthodes agiles, nos ingénieurs prendront le relais afin de construire étape par étape votre projet.</p>
+                  <h2 class="card-title">EXÉCUTION <br> & AGILITÉ</h2>
+                  <p class="card-text">est la phase la plus attendue ; à ce stade, grâce aux méthodes agiles, nos ingénieurs prendront le relais afin de construire étape par étape votre projet.</p>
               </div>
           </div>
           <div class="card col-sm-12 col-md-3 m-2 p-2">
               <div class="card-body">
                   <h1 class="card-subtitle pt-0">03</h1>
-                  <h2 class="card-title">CONTRÔLE & LIVRAISON</h2>
+                  <h2 class="card-title">CONTRÔLE <br> & LIVRAISON</h2>
                   <p class="card-text">Votre projet est prêt. Tout est testé pour une meilleure optimisation. il vous sera livré en respectant nos engagements.</p>
               </div>
           </div>
-      </section>
+          </div>
+          
 
+      </section>
         <section class="history d-flex">
-            <div class="container">
-                <div class="card mb-3 pt-0 mt-0">
-                    <div class="row no-gutters mt-0 pt-0 d-flex justify-content-center">
+            <div class="container mx-auto">
+                <div class="card border-light mb-3 pt-0 mt-0">
+                    <div class="row g-0 mt-0 pt-0 d-flex justify-content-center">
                       <div class="col-md-5 justify-content-end">
-                        <img src="assets/men.png" alt="our history image">
+                        <img src="assets/men.png" class="img-fluid rounded-start" alt="our history image">
                       </div>
-                      <article class="col-md-6">
+                      <article class="col-md-7">
                         <div class="card-body pt-0 mt-0">
-                          <p class="card-title">Notre Histoire</p>
-                          <p class="card-subtitle">Une Entreprise, <br> C’est D’abord Des Sacrifices</p>
-                          <p class="card-text">L’innovation, la passion et la persévérance » est le triptyque dont ont fait preuve les deux co-fondateurs de iNTELVALIA, pour permettre à celle-ci d’exister aujourd’hui et de faire partie de l’écosystème national des technologies de l’information. Spécialisée dans le conseil en digitalisation, la conception, le développement de solutions SAAS et d’applications web & mobile, modélisation 3D et l’outsourcing, notre start-up est fondée par deux jeunes ex-directeurs d’une entreprise franco-marocaine qui, conscients des obstacles et de la difficulté de l’entrepreneuriat au Maroc, décident de tout recommencer à zéro et prendre un nouvel envol dans le monde de l’entreprenariat .</p>
+                          <h1 class="card-title">Notre Histoire</h1>
+                          <h4 class="card-subtitle">Une Entreprise, <br> C’est D’abord Des Sacrifices</h4>
+                          <p class="card-text">L’innovation, la passion et la persévérance » est le triptyque dont ont fait preuve les deux co-fondateurs de iNTELVALIA, pour permettre à celle-ci d’exister aujourd’hui et de faire partie de l’écosystème national des technologies de l’information. Spécialisée dans le conseil en digitalisation, la conception, le développement de solutions SAAS et d’applications web & mobile, modélisation 3D et l’outsourcing, notre start-up est fondée par deux jeunes ex-directeurs d’une entreprise franco-marocaine qui, conscients des obstacles et de la difficulté de l’entrepreneuriat au Maroc, décident de tout recommencer à zéro et prendre un nouvel envol dans le monde de l’entreprenariat afin de remplir une mission essentielle qui les tient à cœur.</p>
                           <button class="btn btn-primary btn-lg btn-success">
                             LOREM IPSUM
                         </button>
@@ -101,21 +103,21 @@
             </div>
         </section>
 
-          <section class="card-group mt-5 pt-5 container d-flex justify-content-center">
+          <section class="crsl d-flex justify-content-center">
               <div class="container">
-                <div class="title">
+                <h2 class="title">
                   We Provide You With High Quality <br> IT Solution Services
-                </div>
-                <div class="row d-flex justify-content-around">
-                  <div class=" card mt-3 pt-2 col-md-3">
+                </h2>
+                <div class="row card-group d-flex">
+                  <div class="card col-md-3">
                       <img src="assets/web1.jpg" class="card-img-top " alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Développement Mobile</h5>
                         <a href="#" class="card-text">Learn more<span><i class="fas fa-arrow-right"></i></span></a>                        
                         </div>
-                    </div>
+                    </div>      
         
-                    <div class="card mt-3 pt-2 col-md-3 justify-content-center">
+                    <div class="card col-md-3 justify-content-center">
                         <img src="assets/web2.jpg" class="card-img-top " alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Développement Web</h5>
@@ -123,7 +125,7 @@
                           </div>
                       </div>
         
-                      <div class="card mt-3 pt-2 col-md-3 justify-content-center">
+                      <div class="card col-md-3 justify-content-center">
                         <img src="assets/web3.jpg" class="card-img-top " alt="...">
                         <div class="card-body">
                           <h5 class="card-title">UI/UX Design</h5>
@@ -131,21 +133,21 @@
                           </div>
                       </div>
         
-                      <div class="card mt-3 pt-2 col-md-3 justify-content-center">
+                      <div class="card mx-auto col-md-3 justify-content-center">
                         <img src="assets/web4.jpg" class="card-img-top " alt="...">
                         <div class="card-body">
                           <h5 class="card-title mt-0 pt-0">UI/UX Design</h5>
                           <a href="#" class="card-text">Learn more<span><i class="fas fa-arrow-right"></i></span></a>                        
                         </div>
                       </div>
-              </div>
+              </div> 
               </div>
           </section>
 
           <section class="history mb-5 pb-5">
             <div class="container">
-                <div class="card mb-3">
-                    <div class="row no-gutters d-flex justify-content-center align-items-center">
+                <div class="card border-light mb-3">
+                    <div class="row g-0 d-flex justify-content-center align-items-center">
                       <article class="col-md-6">
                         <div class="card-body justify-content-start">
                             <p class="card-title">Notre Histoire</p>
@@ -157,19 +159,20 @@
                         </div>
                       </article>
                       <div class="col-md-5 justify-content-end">
-                        <img src="assets/Mask Group 4.png" alt="our history image">
+                        <img src="assets/MaskGroup4.png" class="img-fluid rounded-start" alt="our history image">
                       </div>
                     </div>
                   </div>
             </div>
         </section>
+        
         <section class="expert">
             <div class="container">
               <div class="title mx-auto">Our Expert</div>
             <div class="card-group">
                 <div class="container d-flex justify-content-center">
                     <div class="card mb-2 pt-0 mt-2 mr-1 ml-1 justify-content-center">
-                        <img src="assets/Mask Group 2.png" class="card-img-top pt-0" alt="...">
+                        <img src="assets/MaskGroup2.png" class="card-img-top pt-0" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Megan Ramirez</h5>
                           <p class="card-text">Learn more</p>                        
@@ -177,7 +180,7 @@
                       </div>
           
                       <div class="card mt-2 p-0 mr-1 ml-1 justify-content-center">
-                          <img src="assets/Mask Group 5.png" class="card-img-top " alt="...">
+                          <img src="assets/MaskGroup5.png" class="card-img-top " alt="...">
                           <div class="card-body">
                             <h5 class="card-title">Doris Evans</h5>
                             <p class="card-text">Ingenieur Node Js</p>                              
@@ -207,7 +210,7 @@
         <section class="values container">
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2">
                 <div class="col mb-2">
-                  <div class="card pt-0 m-1">
+                  <div class="card  pt-0 m-1">
                     <div class="card-body mt-0 pt-1">
                       <h5 class="card-title">Nos Valeurs <br> Fondamentales</h5>
                       <p class="card-text">Nos valeurs reflètent qui nous sommes en tant que start-up et en tant que collaborateurs. Elles nous aident dans la prise de décisions et nous donnent la motivation de suivre nos objectifs dans un cadre de travail favorable.</p>
@@ -320,7 +323,6 @@
             </div>
           </div>
         </section>
-
 <footer class="page-footer font-small stylish-color-dark pt-4">
 
   <div class="container text-center text-md-left">
@@ -407,6 +409,38 @@
 	  }
   })
 })
+
+jQuery(document).ready(function() {
+	$('#carousel-example').on('slide.bs.carousel', function (e) {
+	    var $e = $(e.relatedTarget);
+	    var idx = $e.index();
+	    var itemsPerSlide = 4;
+	    var totalItems = $('.carousel-item').length;
+	    
+	    if (idx >= totalItems-(itemsPerSlide-1)) {
+	        var it = itemsPerSlide - (totalItems - idx);
+	        for (var i=0; i<it; i++) {
+	            // append slides to end
+	            if (e.direction=="left") {
+	                $('.carousel-item').eq(i).appendTo('.carousel-inner');
+	            }
+	            else {
+	                $('.carousel-item').eq(0).appendTo('.carousel-inner');
+	            }
+	        }
+	    }
+	});
+	
+});
+
 </script>
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        
 </body>
 </html>
